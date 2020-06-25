@@ -38,3 +38,11 @@ They care about how to design a scalable system
 *Take a look to System design and scalability chapter*
 
 Puts a strong focus on analytical (algorithm) skills.
+
+### Facebook
+
+Paying attention to the coding style (D.R.Y, K.I.S.S, P.O.L.A, Y.A.G.N.I, S.O.L.I.D)
+
+they want to know you can hack together an elegant and scalable solution using any language of choise.
+FB does a lot of work with PHP, C++, Python, Erlang and others.
+
