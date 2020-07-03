@@ -47,7 +47,7 @@ Paying attention to the coding style (D.R.Y, K.I.S.S, P.O.L.A, Y.A.G.N.I, S.O.L.
 they want to know you can hack together an elegant and scalable solution using any language of choise.
 FB does a lot of work with PHP, C++, Python, Erlang and others.
 
-## --------------------------- BEHAVIORAL QUESTIONS -------------------------------------------
+## --------------------------- BEHAVIORAL QUESTIONS ---------------------------------------
 
 ### What are you weaknesses
 
@@ -79,4 +79,4 @@ Passion questions
 
 5. Hobbies: "Remodeling my house myself"
 
-<p style="text-align: center;"> # ---------------- Big O ---------------------- </p>
+## ---------------- Big O ----------------------
