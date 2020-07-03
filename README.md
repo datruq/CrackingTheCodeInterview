@@ -47,7 +47,7 @@ Paying attention to the coding style (D.R.Y, K.I.S.S, P.O.L.A, Y.A.G.N.I, S.O.L.
 they want to know you can hack together an elegant and scalable solution using any language of choise.
 FB does a lot of work with PHP, C++, Python, Erlang and others.
 
-## --------------------------- BEHAVIORAL QUESTIONS ---------------------------------------
+## ----------------- BEHAVIORAL QUESTIONS -----------------------
 
 ### What are you weaknesses
 
@@ -80,3 +80,47 @@ Passion questions
 5. Hobbies: "Remodeling my house myself"
 
 ## ---------------- Big O ----------------------
+
+#### multiple if -> O(1)
+
+```
+    if()
+    else()
+```
+
+#### Divide and conquer O(log n)
+
+for example, looking up people in a phone book
+
+```
+You don't need to check every person in the phone book to find the right one; instead, you can simply divide-and-conquer by looking based on where their name is alphabetically, and in every section you only need to explore a subset of each section before you eventually find someone's phone number.
+```
+
+#### varios for en secuencia -> O(n)
+
+```
+    for()
+        if()
+    for()
+    for()
+```
+
+#### sort -> O(n log n)
+
+```
+    arr.sort()
+```
+
+#### for nested -> O(n²)
+
+```
+    for()
+        for()
+```
+
+#### recursive -> O(2^n)
+
+```
+    for()
+        for()
+```
