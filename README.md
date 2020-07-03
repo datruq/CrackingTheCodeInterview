@@ -121,6 +121,8 @@ You don't need to check every person in the phone book to find the right one; in
 #### recursive -> O(2^n)
 
 ```
-    for()
-        for()
+    function x(y)
+        if(!y){
+            x(1)
+        }
 ```
