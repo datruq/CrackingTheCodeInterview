@@ -113,12 +113,16 @@ You don't need to check every person in the phone book to find the right one; in
 
 #### for nested -> O(n²)
 
+Brute force
+
 ```
     for()
         for()
 ```
 
 #### recursive -> O(2^n)
+
+Recursive
 
 ```
     function x(y)
