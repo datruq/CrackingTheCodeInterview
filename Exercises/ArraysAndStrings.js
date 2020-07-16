@@ -16,6 +16,7 @@ function isUnique(stringParam) {
 console.log('The String is unique? ', isUnique('qwert'));
 
 //Given tow strings, write a method to decide if one is a permutation of the other
+//O(N)
 function checkPermutation(str1, str2) {
     var permutation = new Map();
     var response = true;
@@ -31,14 +32,16 @@ function checkPermutation(str1, str2) {
 
 console.log('Is permutation? ', checkPermutation('roma', 'amor'));
 
+//Write a method to replace all spaces in a string with '%20%'
+// O(N)
 function urlify(stringToUrl) {
     var urlArray = stringToUrl.trim().split(' ');
-    var space = '%20%';
+    var space = '%20';
     var response = '';
     for (let u of urlArray) {
         response += u + space;
     }
-    return response.substr(0, response.length - 4);
+    return response.substr(0, response.length - 3);
 }
 
 console.log('URLify this string please: ', urlify('esta es una prueba   '));
