@@ -66,3 +66,16 @@ const isPalindromePermutation = (stringToTest) => {
 };
 
 console.log('PalindromePermutation: ', isPalindromePermutation('roma amor'));
+
+const oneWay = (stringParam, toBeeEdited) => {
+    var isEdited = 0;
+    for (let i = 0; i < toBeeEdited.length; i++) {
+        if (stringParam[i] !== toBeeEdited[i]) {
+            isEdited++;
+        }
+    }
+    console.log(isEdited);
+    return isEdited <= 1;
+};
+
+console.log('Is oneway ediatble?: ', oneWay('pale', 'bale'));
