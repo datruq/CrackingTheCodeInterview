@@ -1,5 +1,38 @@
 # Cracking the code interview notes!
 
+### Study list items
+
+-   Big O
+-   Data Structures
+    -   Arrays
+    -   LinkedList
+    -   DoubleLinkedList
+    -   HasTables
+    -   Staks
+    -   Queues
+    -   Heap
+-   Type of sorts
+    -   Bubble O(N²)
+    -   Insertion O(N²)
+    -   Merge O(N log N)
+    -   Quick O(N log N)
+-   Techniques for solving problems
+    -   Divide and conquire
+    -   Sliding window (Strings and arrays)
+    -   Binary search
+    -   Bitmask
+    -   Greedy algorithms
+-   Advance data structures
+    -   Directed graphs
+    -   No Directed graphs
+    -   Directed acyclic graphs
+        -   Depht search first (DFS)
+        -   Breadth first search (BFS)
+        -   Dijkstra algorithm (find shortest way)
+    -   Tree
+    -   Binary search tree (BST)
+-   Dynamic programming
+
 ### Interview process
 
 ### Solving coding problems
