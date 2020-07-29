@@ -17,14 +17,14 @@ console.log('The String is unique? ', isUnique('qwert'));
 
 //Given tow strings, write a method to decide if one is a permutation of the other
 //O(N)
-function checkPermutation(str1, str2) {
+function checkPermutation(stringParam1, stringParam2) {
     var permutation = new Map();
     var response = true;
-    if (str1.length !== str2.length) return false;
-    for (let s of str1) {
+    if (stringParam1.length !== stringParam2.length) return false;
+    for (let s of stringParam1) {
         permutation.set(s, s);
     }
-    for (let p of str2) {
+    for (let p of stringParam2) {
         if (!permutation.has(p)) return fase;
     }
     return true;
@@ -44,4 +44,25 @@ function urlify(stringToUrl) {
     return response.substr(0, response.length - 3);
 }
 
-console.log('URLify this string please: ', urlify('esta es una prueba   '));
+console.log(
+    'URLify this string please: ',
+    urlify('lets try this URLify thing   ')
+);
+
+const isPalindromePermutation = (stringToTest) => {
+    var permutation = new Map(),
+        palindrome = 0;
+    for (let p of stringToTest.toLowerCase()) {
+        if (!permutation.has(p)) {
+            permutation.set(p, 1);
+        } else permutation.set(p, permutation.get(p) + 1);
+    }
+    for (let pal of permutation) {
+        if (pal[1] % 2 == 1) {
+            palindrome++;
+        } else palindrome--;
+    }
+    return palindrome <= 1;
+};
+
+console.log('PalindromePermutation: ', isPalindromePermutation('roma amor'));
